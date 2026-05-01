@@ -1,0 +1,21 @@
+{
+  "name": "cody-ai",
+  "version": "1.0.0",
+  "description": "AI coding assistant for your terminal — powered by Claude",
+  "type": "module",
+  "bin": {
+    "cody": "./bin/cody.js"
+  },
+  "scripts": {
+    "start": "node bin/cody.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.39.0",
+    "ignore": "^5.3.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "keywords": ["ai", "coding", "assistant", "claude", "terminal", "cli"],
+  "license": "MIT"
+}
